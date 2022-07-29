@@ -10,11 +10,11 @@ public class Cat {
         this.breed = breed;
         this.age = age;
     }
-    void tellColorAndBreed() {
+    void printColorAndBreed() {
         System.out.println("Цвет кошака: " + color + ". Порода кошака: " + breed + "." );
     }
 
-    void tellHumanAge() {
+    void printHumanAge() {
         System.out.println("Возраст кошака в пересчёте на человеческий: " + age*7 + ".");
     }
 }
